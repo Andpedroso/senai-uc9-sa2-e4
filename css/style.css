@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&family=Trirong&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #1E1C21;
+    height: 130px;
+}
+
+.container-grid {
+    width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.posicionamento-header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barras {
+    width: 30px;
+    display: none;
+}
+
+.menu {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Trirong', serif;
+    font-size: 20px;
+}
+
+/* Divisor audio */
+
+.audio {
+    background-color: black;
+    text-align: center;
+}
+
+/* Banner */
+
+.carrossel {
+    background-color: black;
+}
+
+#carrossel img{
+    display: none;
+    height: 900px;
+}
+
+.banner {
+    background-image: url(../img/matrix.jpg);
+    height: 605px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.itens-banner {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.itens-banner img {
+    width: 800px;
+}
+
+.texto-banner {
+    width: 495px;
+    color: white;
+    text-align: center;
+    
+}
+
+.texto-banner h1 {
+    font-size: 75px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.texto-banner p {
+    font-family: 'Trirong', serif;
+    font-size: 25px;
+    margin-bottom: 40px;
+
+}
+
+.texto-banner a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Trirong', serif;
+    font-size: 30px;
+    background-color: #C31616;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Divisor 1*/
+
+.divisor1 {
+    background-color: black;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* Destaque */
+
+.destaque {
+    background-image: url(../img/estrelas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Página Hardware Início*/
+
+.produtos {
+    background-color: black;
+}
+
+.produtos h1 {
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+.texto_galeria {
+    color: white;
+    font-family: 'Trirong', serif;
+    font-size: 20px;
+}
+
+/* Página Hardware Fim*/
+
+/* Página Formulário Início*/
+
+.formulario_body {
+    background-color: black;
+}
+
+.formulario {
+    color: white;
+}
+/* Página Formulário Fim*/
+
+.destaque_conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.destaque_texto {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;    
+}
+
+.destaque_texto h1 h4 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.destaque_texto h1 {
+    font-size: 45px;
+    background-color: red;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.destaque_texto h4 {
+    font-size: 35px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.destaque_texto p {
+    font-family: 'Trirong', serif;
+    font-size: 20px;
+}
+
+.destaque_texto img {
+    width: 680px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.destaque_imagem {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    height: 300px;
+    
+}
+
+/* Novidades */
+
+.novidades {
+    background-image: url(../img/estrelas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.novidades h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 45px;
+    background-color: red;
+    
+}
+
+.novidades_conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+}
+
+.novidades_nintendo {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.novidades_konami {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.novidades_kojimaproductions {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Galeria */
+
+.galeria {
+    background-color: black;
+    
+}
+
+.galeria h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 45px;
+    background-color: red;
+}
+
+.galeria_conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.galeria_conteudo img {
+    width: 300px;
+    
+    
+    margin: 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1E1C21;
+    color: white;
+    padding: 20px;
+}
+
+.conteudo_footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.paginas_footer {
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.imagens_footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.conteudo_footer h4 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.conteudo_footer p {
+    margin-top: 15px;
+    font-family: 'Trirong', serif;
+}
+
+.conteudo_footer a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Trirong', serif;
+    margin: 5px;
+}
+
+.enviar {
+    margin-left: 80px;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+    
+    header {
+        height: 80px;
+        justify-content: center;
+        
+    }
+
+    .menu {
+        width: 460px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    #carrossel img{
+        
+        height: 600px;
+    }
+
+    .container-grid {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .itens-banner img {
+        width: 500px;
+    }
+
+    .divisor1 {
+        background-color: black;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .itens-banner {
+        height: 80%;
+    }
+
+    .texto-banner h1 {
+        font-size: 50px;
+        
+    }
+    
+    .texto-banner p {
+        font-size: 20px;
+    }
+    
+    .texto-banner a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .barras {
+        display: inline-block;
+    }
+
+    .audio {
+        text-align: left;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 300px;
+        background-color: black;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+    }
+
+    #carrossel img{
+        
+        height: 400px;
+    }
+
+    .menu_ativo {
+        display: flex;
+    
+    }
+
+    .menu a {
+        text-align: center;
+        font-size: 40px;
+        padding: 15px;
+    }
+
+    .posicionamento-header {
+        position: relative;
+    }
+}
+
+
+/* @media screen and (max-width: 1200px) {
+    .container-grid {
+        width: 90%;
+    }
+
+    .menu {
+        width: 460px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .container-grid {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .itens-banner img {
+        width: 500px;
+    }
+
+    .divisor1 {
+        background-color: black;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .itens-banner {
+        height: 80%;
+    }
+
+    .texto-banner h1 {
+        font-size: 50px;
+        
+    }
+    
+    .texto-banner p {
+        font-size: 20px;
+    }
+    
+    .texto-banner a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .barras {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 300px;
+        background-color: black;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+    }
+
+    .menu a {
+        text-align: center;
+        font-size: 40px;
+        padding: 15px;
+    }
+
+    .posicionamento-header {
+        position: relative;
+    }
+} */
